@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "sequence_id": 1,
+  "target_draw_id": 3096,
+  "training_cutoff": 3095,
+  "generated_at": "2026-07-25T22:53:15Z",
+  "action": "ABSTAIN",
+  "confidence": 0.153,
+  "steer": {
+    "blend_ticket": [
+      2,
+      8,
+      12,
+      25,
+      34
+    ],
+    "joker": 6,
+    "number_weights": {
+      "12": 4,
+      "8": 4,
+      "2": 3,
+      "34": 3,
+      "25": 2,
+      "38": 2,
+      "20": 2,
+      "23": 2,
+      "11": 2,
+      "29": 2,
+      "41": 2,
+      "14": 1,
+      "6": 1,
+      "3": 1,
+      "17": 1,
+      "15": 1,
+      "35": 1,
+      "39": 1,
+      "1": 1,
+      "13": 1,
+      "31": 1,
+      "4": 1,
+      "24": 1
+    },
+    "watch_list": [
+      11,
+      20,
+      23,
+      25,
+      29,
+      38,
+      41
+    ],
+    "gemini_pick": [],
+    "gemini_joker": 11,
+    "constraints": {}
+  },
+  "note": "Greek Joker is memoryless; this steer is a pre-committed hypothesis for the DSL to verify, not a predictive edge.",
+  "hash": "cd554b8a82fdbe262dd5665d1c64d1c5860a3fc46ee8d35dc425577df308cd11"
+}
