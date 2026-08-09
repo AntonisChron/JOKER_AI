@@ -1,60 +1,66 @@
 {
   "schema": 1,
-  "sequence_id": 13,
-  "target_draw_id": 3103,
-  "training_cutoff": 3102,
-  "generated_at": "2026-08-09T19:47:18Z",
+  "sequence_id": 14,
+  "target_draw_id": 3104,
+  "training_cutoff": 3103,
+  "generated_at": "2026-08-09T20:01:45Z",
   "action": "ABSTAIN",
   "confidence": 0.5,
-  "edge_confidence": 0.19,
+  "edge_confidence": 0.151,
   "steer": {
     "blend_ticket": [
-      7,
+      20,
       28,
-      31,
       34,
-      36
+      36,
+      37
     ],
-    "joker": 17,
+    "joker": 8,
     "number_weights": {
-      "31": 5,
-      "36": 4,
-      "7": 3,
-      "34": 3,
+      "34": 4,
+      "20": 3,
       "28": 3,
-      "29": 3,
-      "10": 2,
-      "16": 2,
-      "8": 2,
+      "36": 3,
+      "26": 2,
       "37": 2,
-      "11": 1,
-      "19": 1,
-      "38": 1,
-      "42": 1,
-      "45": 1,
-      "22": 1,
-      "43": 1,
+      "31": 2,
+      "44": 2,
+      "8": 2,
+      "29": 2,
+      "23": 1,
+      "2": 1,
+      "4": 1,
       "12": 1,
-      "20": 1,
       "18": 1,
-      "15": 1
+      "5": 1,
+      "22": 1,
+      "24": 1,
+      "40": 1,
+      "15": 1,
+      "38": 1,
+      "33": 1,
+      "13": 1,
+      "30": 1,
+      "32": 1
     },
     "watch_list": [
       8,
-      10,
-      16,
-      37
-    ],
-    "gemini_pick": [
-      7,
-      28,
+      26,
       29,
       31,
-      36
+      37,
+      44
     ],
-    "gemini_joker": 16,
+    "gemini_pick": [
+      20,
+      28,
+      34,
+      36,
+      37
+    ],
+    "gemini_joker": 1,
     "constraints": {}
   },
   "note": "Greek Joker is memoryless; this steer is a pre-committed hypothesis for the DSL to verify, not a predictive edge.",
-  "hash": "acec32cb3e7abba5a8684b3e4e468cc97d8f8782cd1416c90349a5a75147145d"
+  "hash": "f1109b7c5dcf8acdfc8810f95f0b35338aad766c0bb1def2516808ea55a60ed3"
 }
